@@ -25,4 +25,6 @@ urlpatterns = [
     path('TaskDestroyAPIView/<int:id>/', TaskDestroyAPIView.as_view(), name='TaskDestroyAPIView'),
 
     path('', include(router.urls)),
+
 ]
+
